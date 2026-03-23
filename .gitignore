@@ -1,0 +1,25 @@
+# --- Raw & processed company data (NEVER commit) ---
+Raw_Data/
+data/
+
+# --- Report outputs (contain company data) ---
+outputs/
+
+# --- Notebook that transforms raw company data (do NOT push) ---
+Anon_data.ipynb
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
